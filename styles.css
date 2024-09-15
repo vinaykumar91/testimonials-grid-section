@@ -109,8 +109,6 @@ img{
         grid-template-columns: 24% 24% 24% 26%;
         grid-template-rows: 50% 50%;
         gap:2%;
-        padding: 3em;
-        margin-right: -5em;
     }
     .container div{
         padding:3vw;
