@@ -93,6 +93,43 @@ img{
     font-size: 13px;
  
 }
+@media only screen and (min-width:1400px)
+{
+    .content1{
+        display:flex;
+        align-items:center;
+        height: 5%;
+        width:200%;
+        font-size:1.05em;
+        margin:-2em 0em -1em -1.5em;
+        
+    }
+    .name{
+        margin:-1em 0em 0em -2em;
+        width:100%;
+    
+    }
+    .text-type3{
+        font-weight:600 ;
+        color: hsl(210, 46%, 95%);
+        margin: 5% 0em 5% 0em;
+        font-size: 1.3em;
+    }
+    .text-type2{
+        font-weight:600 ;
+        color: hsl(217, 19%, 35%);
+        font-size: 1.3em;
+    }
+    .text-type4{
+        color: hsl(0, 0%, 81%);
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .text-type5{
+        color: hsl(0, 0%, 81%);
+    font-size: 15px;
+    }
+}
 @media only screen and (min-width:1000px)
 {
     main{
@@ -109,6 +146,7 @@ img{
         grid-template-columns: 24% 24% 24% 26%;
         grid-template-rows: 50% 50%;
         gap:2%;
+        padding: 3em;
     }
     .container div{
         padding:3vw;
