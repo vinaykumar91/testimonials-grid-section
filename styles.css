@@ -106,8 +106,8 @@ img{
         display: grid;
         height: 100%;
         width: 100%;
-        grid-template-columns: 23% 23% 23% 23%;
-        grid-template-rows: 48% 48%;
+        grid-template-columns: 23% 23% 23% 26%;
+        grid-template-rows: 47% 48%;
         gap:2%;
         padding: 3em;
         margin-right: -5em;
@@ -116,6 +116,7 @@ img{
         padding:3vw;
         border-radius: 5px;
     }
+    
     .text-type3{
         margin-top:-1em;
     }
@@ -212,15 +213,4 @@ img{
         font-size: 13px;
      
     }
-}
-@media only screen and (min-width:1200px)
-{
-    main{
-        height: 100vh;
-        width: 100%;
-        background-color: hsl(210, 46%, 95%);
-        overflow: hidden;
-        padding:7.5%;
-    }
-    
 }
